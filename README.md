@@ -33,7 +33,7 @@ source venv/bin/activate
 # On Windows: venv\Scripts\activate
 ```
 3.⁠ Install dependencies
-   ```bash
+```bash
 pip install -r requirements.txt
 ```
 4.⁠ ⁠Set up your Streamlit secrets
@@ -42,6 +42,6 @@ fred_api_key = "your_fred_api_key"
 openai_api_key = "your_openai_key"
 
 5. Run the app
-   ```bash
+```bash
 streamlit run app.py
 ```

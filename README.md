@@ -37,7 +37,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 4.⁠ ⁠Set up your Streamlit secrets
+
 Create a file .streamlit/secrets.toml and add:
+
 fred_api_key = "your_fred_api_key"
 openai_api_key = "your_openai_key"
 
